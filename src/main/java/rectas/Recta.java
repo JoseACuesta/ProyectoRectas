@@ -26,7 +26,7 @@ public record Recta(Vector vectorDirector, Punto punto) {
         return v.esParaleloA(vectorDirector);
     }
 
-    /// Devuelve un record Implicita con lso coeficientes a, b y c de la recta en forma implícita
+    /// Devuelve un record Implicita con los coeficientes a, b y c de la recta en forma implícita
     public Implicita implicita() {
         return new Implicita(vectorDirector.y(), - vectorDirector().x(), vectorDirector.x()*punto.y() - vectorDirector().y()* punto().x());
     }
