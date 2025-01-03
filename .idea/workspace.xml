@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ca212304-5809-4f07-8f67-ba1a844dde8d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Fabrica/Challenge-Fabrica" beforeDir="false" afterPath="$PROJECT_DIR$/../Fabrica/Challenge-Fabrica" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniversoV1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniversoV1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniversoV1/src/main/java/universo/Particula.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV1/src/main/java/universo/Particula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniversoV1/src/main/java/universo/Universo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV1/src/main/java/universo/Universo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniversoV2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniversoV2/data/universos/8star-rotation.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV2/data/universos/8star-rotation.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniversoV2/data/universos/atom.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV2/data/universos/atom.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniversoV2/data/universos/awesome.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV2/data/universos/awesome.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniversoV2/data/universos/chaosblossom.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV2/data/universos/chaosblossom.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniversoV2/data/universos/dance10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV2/data/universos/dance10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniversoV2/data/universos/entropy-universe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV2/data/universos/entropy-universe.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniversoV2/data/universos/fourellipses.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV2/data/universos/fourellipses.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniversoV2/data/universos/hypnosis.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV2/data/universos/hypnosis.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniversoV2/data/universos/illusion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV2/data/universos/illusion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniversoV2/data/universos/planetsparty.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV2/data/universos/planetsparty.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniversoV2/data/universos/spiral.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV2/data/universos/spiral.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniversoV2/src/main/java/MainFichero.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV2/src/main/java/MainFichero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniversoV2/src/main/java/universo/DatosUniverso.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV2/src/main/java/universo/DatosUniverso.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JoseACuesta&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/JoseACuesta/MBD2024.git&quot;,
+    &quot;accountId&quot;: &quot;69b02d1d-6999-45c3-aad3-631ed6a0435f&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2qo3gLaD6Qsx11yg1MdVKZJrWEM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.EjRectas.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="EjRectas" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EjRectas" />
+      <module name="ProyectoRectas" />
+      <option name="PROGRAM_PARAMETERS" value="2 0 3 4 -2 5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca212304-5809-4f07-8f67-ba1a844dde8d" name="Changes" comment="" />
+      <created>1735315211603</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735315211603</updated>
+    </task>
+    <servers />
+  </component>
+</project>
