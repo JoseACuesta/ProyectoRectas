@@ -1,6 +1,7 @@
-package rectas;
+/// @author: José Antonio Cuesta Burgos
+/// @author: Víctor Miguel Gallardo Fuentes
 
-import static java.lang.Math.*;
+package rectas;
 
 public record Vector(Punto extremo) {
 
