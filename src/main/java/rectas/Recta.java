@@ -31,7 +31,8 @@ public record Recta(Vector vectorDirector, Punto punto) {
 
     /// Devuelve un record Implicita con los coeficientes a, b y c de la recta en forma implícita
     public Implicita implicita() {
-        return new Implicita(vectorDirector.y(), - vectorDirector().x(), vectorDirector.x()*punto.y() - vectorDirector().y()* punto().x());
+
+        return new Implicita(vectorDirector.y(), -vectorDirector.x(), vectorDirector.x()*punto.y() - vectorDirector.y()*punto.x());
     }
 
     /// Devuelve el determinante de una matriz dados los elementos aij que la conforman
