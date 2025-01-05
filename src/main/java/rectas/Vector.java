@@ -38,7 +38,7 @@ public record Vector(Punto extremo) {
         if (modulo() == 0) {
             throw new RuntimeException("El módulo no puede ser negativo.");
         }
-        return new Vector(extremo.x()/modulo(), extremo.y()/modulo());
+        return new Vector(x(), y()).escalar(1/modulo());
     }
 
     /// Resta dos vectores componente a componente
@@ -63,7 +63,7 @@ public record Vector(Punto extremo) {
     /// En otro caso, devuelve false
     /// @param v Un vector
     public boolean esParaleloA(Vector v) {
-        return (v.extremo.x() * extremo.y() - v.extremo.y() * extremo.x()) < EPSILON;
+        return (v.x() * y() - v.y() * x()) < EPSILON;
     }
 
     /// Devuelve el proyecto del recetor
@@ -79,12 +79,12 @@ public record Vector(Punto extremo) {
     /// Devuelve el vector ortogonal al receptor `this`
     /// Un vector ortogonal (perpendicular) al vector (x,y) es el vector (-y,x)
     public Vector ortogonal() {
-        return new Vector(-extremo.y(), extremo.x());
+        return new Vector(-y(), x());
     }
 
     /// Devuelve un vector resultado de multiplicar cada componente por un escalar
     /// @param d El escalar
     public Vector escalar(double d) {
-        return new Vector(extremo.x() * d, extremo.y() * d);
+        return new Vector(x() * d, y() * d);
     }
 }
