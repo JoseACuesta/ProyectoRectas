@@ -5,25 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca212304-5809-4f07-8f67-ba1a844dde8d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Fabrica/Challenge-Fabrica" beforeDir="false" afterPath="$PROJECT_DIR$/../Fabrica/Challenge-Fabrica" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniversoV1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV1/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniversoV1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniversoV1/src/main/java/universo/Particula.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV1/src/main/java/universo/Particula.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniversoV1/src/main/java/universo/Universo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV1/src/main/java/universo/Universo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniversoV2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV2/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniversoV2/data/universos/8star-rotation.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV2/data/universos/8star-rotation.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniversoV2/data/universos/atom.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV2/data/universos/atom.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniversoV2/data/universos/awesome.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV2/data/universos/awesome.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniversoV2/data/universos/chaosblossom.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV2/data/universos/chaosblossom.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniversoV2/data/universos/dance10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV2/data/universos/dance10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniversoV2/data/universos/entropy-universe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV2/data/universos/entropy-universe.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniversoV2/data/universos/fourellipses.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV2/data/universos/fourellipses.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniversoV2/data/universos/hypnosis.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV2/data/universos/hypnosis.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniversoV2/data/universos/illusion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV2/data/universos/illusion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniversoV2/data/universos/planetsparty.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV2/data/universos/planetsparty.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniversoV2/data/universos/spiral.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV2/data/universos/spiral.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniversoV2/src/main/java/MainFichero.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV2/src/main/java/MainFichero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniversoV2/src/main/java/universo/DatosUniverso.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniversoV2/src/main/java/universo/DatosUniverso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rectas/Recta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rectas/Recta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rectas/Vector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rectas/Vector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +23,12 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Víctor" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -62,19 +52,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.EjRectas.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.EjRectas.executor": "Run",
+    "Maven.ProyectoRectas [clean].executor": "Run",
+    "Maven.ProyectoRectas [package].executor": "Run",
+    "Maven.rectas [clean].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "VíctorM",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/victo/IdeaProjects/ChallengeV1/ProyectoRectas",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="EjRectas" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EjRectas" />
-      <module name="ProyectoRectas" />
+      <module name="Rectas" />
       <option name="PROGRAM_PARAMETERS" value="2 0 3 4 -2 5" />
       <method v="2">
         <option name="Make" enabled="true" />

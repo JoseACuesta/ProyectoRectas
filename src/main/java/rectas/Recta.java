@@ -28,7 +28,11 @@ public record Recta(Vector vectorDirector, Punto punto) {
 
     /// Devuelve un record Implicita con los coeficientes a, b y c de la recta en forma implícita
     public Implicita implicita() {
-        return new Implicita(vectorDirector.y(), - vectorDirector().x(), vectorDirector.x()*punto.y() - vectorDirector().y()* punto().x());
+        double a = vectorDirector.y();
+        double b = -vectorDirector.x();
+        double c = determinante(vectorDirector.x(),vectorDirector.y(), punto.x(), punto.y());
+
+        return new Implicita(a,b,c);
     }
 
     /// Devuelve el determinante de una matriz dados los elementos aij que la conforman
@@ -40,25 +44,15 @@ public record Recta(Vector vectorDirector, Punto punto) {
         return a11 * a22 - a12 * a21;
     }
 
-    /// Devuelve el `vectorDirector` de la recta
-    public Vector vectorDirector() {
-        return vectorDirector;
-    }
-
-    /// Devuelve el punto por donde pasa la recta
-    public Punto punto() {
-        return punto;
-    }
-
     /// Devuelve una recta cuyo `vectorDirector` es el mismo que el de la recta actual y que pase por `p`
     /// @param p Un punto
     public Recta paralelaPor(Punto p) {
-        return new Recta(vectorDirector(), p);
+        return new Recta(vectorDirector, p);
     }
 
     /// Devuelve una recta cuyo `vectorDirector` sea perpendicular al actual y que pase por `p`
     public Recta perpendicularPor(Punto p) {
-        return new Recta(vectorDirector().ortogonal(), p);
+        return new Recta(vectorDirector.ortogonal(), p);
     }
 
     /// Calcula el punto de intersección de dos rectas.
@@ -67,19 +61,20 @@ public record Recta(Vector vectorDirector, Punto punto) {
         if (esParalelaA(r)){
             return Optional.empty();
         }
+
         double xNumerador = determinante(-implicita().c(), implicita().b(), -r.implicita().c(), r.implicita().b());
         double yNumerador = determinante(implicita().a(), -implicita().c(), r.implicita().a(), -r.implicita().c());
         double denominador = determinante(implicita().a(), implicita().b(), r.implicita().a(), r.implicita().b());
         double x = xNumerador/denominador;
         double y = yNumerador/denominador;
-        if (denominador != 0) return Optional.of(new Punto(x, y));
-        else return Optional.empty();
+
+        return Optional.of(new Punto(x, y));
     }
 
     /// Devuelve la distancia entre la recta y el punto que se pasa como parámetro
     /// @param p Un punto
     public double distanciaDesde(Punto p) {
-        Recta r = new Recta(vectorDirector(), punto());
+        Recta r = new Recta(vectorDirector, punto);
         Recta perpendicular = r.perpendicularPor(p);
         Optional<Punto> punto = r.interseccionCon(perpendicular);
         return punto.get().distancia(p);
