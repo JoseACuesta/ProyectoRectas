@@ -1,3 +1,6 @@
+/// @author: José Antonio Cuesta Burgos
+/// @author: Víctor Miguel Gallardo Fuentes
+
 package rectas;
 
 import java.util.Optional;
