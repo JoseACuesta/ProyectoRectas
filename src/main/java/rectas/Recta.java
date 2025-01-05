@@ -56,12 +56,12 @@ public record Recta(Vector vectorDirector, Punto punto) {
     /// Devuelve una recta cuyo `vectorDirector` es el mismo que el de la recta actual y que pase por `p`
     /// @param p Un punto
     public Recta paralelaPor(Punto p) {
-        return new Recta(vectorDirector(), p);
+        return new Recta(vectorDirector, p);
     }
 
     /// Devuelve una recta cuyo `vectorDirector` sea perpendicular al actual y que pase por `p`
     public Recta perpendicularPor(Punto p) {
-        return new Recta(vectorDirector().ortogonal(), p);
+        return new Recta(vectorDirector.ortogonal(), p);
     }
 
     /// Calcula el punto de intersección de dos rectas.
@@ -82,7 +82,7 @@ public record Recta(Vector vectorDirector, Punto punto) {
     /// Devuelve la distancia entre la recta y el punto que se pasa como parámetro
     /// @param p Un punto
     public double distanciaDesde(Punto p) {
-        Recta r = new Recta(vectorDirector(), punto());
+        Recta r = new Recta(vectorDirector, punto);
         Recta perpendicular = r.perpendicularPor(p);
         Optional<Punto> punto = r.interseccionCon(perpendicular);
         return punto.get().distancia(p);
